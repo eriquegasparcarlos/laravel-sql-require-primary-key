@@ -11,7 +11,7 @@ class RequirePrimaryKeyState
     public static function set(bool $status, ?string $connection = null): void
     {
         if (! static::hasOriginal($connection)) {
-            static::saveOriginal();
+            static::saveOriginal($connection);
         }
 
         DB::statement('/*!80013 SET SQL_REQUIRE_PRIMARY_KEY = ?;*/', [$status]);
