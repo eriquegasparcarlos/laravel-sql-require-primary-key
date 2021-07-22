@@ -1,11 +1,11 @@
 {
-    "name": "chrisnharvey/laravel-sql-require-primary-key",
+    "name": "eriquegasparcarlos/laravel-sql-require-primary-key",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Chris Harvey",
-            "email": "chris@chrisnharvey.com"
+            "name": "Erique Gaspar Carlos Alfredo",
+            "email": "eriquegasparcarlos@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -17,18 +17,18 @@
     },
     "autoload": {
         "psr-4": {
-            "ChrisHarvey\\LaravelSqlRequirePrimaryKey\\": "src/"
+            "Krlos\\LaravelSqlRequirePrimaryKey\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ChrisHarvey\\LaravelSqlRequirePrimaryKey\\Tests\\": "tests/"
+            "Krlos\\LaravelSqlRequirePrimaryKey\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ChrisHarvey\\LaravelSqlRequirePrimaryKey\\ServiceProvider"
+                "Krlos\\LaravelSqlRequirePrimaryKey\\ServiceProvider"
             ]
         }
     }
