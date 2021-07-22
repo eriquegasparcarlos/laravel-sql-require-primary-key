@@ -1,5 +1,5 @@
 {
-    "name": "Krlos/laravel-sql-require-primary-key",
+    "name": "eriquegasparcarlos/laravel-sql-require-primary-key",
     "type": "library",
     "license": "MIT",
     "authors": [
